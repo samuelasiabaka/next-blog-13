@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={classes.wrapper}>
         <div className={classes.col}>
           <h2>About the App</h2>
-          <p>This is a Nextjs 13 fullstack web app</p>
+          <p>This is a Nextjs 13 fullstack blogS app</p>
         </div>
         <div className={classes.col}>
           <h2>Contacts</h2>

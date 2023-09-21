@@ -50,14 +50,14 @@ const BlogCard = ({
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <Link className={classes.imgContainer} href={`/blog/${_id}`}>
-          <Image src={imageUrl} width="350" height="350" />
+          <Image src={imageUrl} width="350" height="350" alt="post-image" />
         </Link>
         <div className={classes.blogData}>
           <div className={classes.left}>
             <h3>{title}</h3>
             <p>{desc}</p>
             <span>
-              Created By: <span>1th of January</span>
+              Created By: <span>{session?.user?.authorId?.username}</span>
             </span>
           </div>
           <div className={classes.right}>
